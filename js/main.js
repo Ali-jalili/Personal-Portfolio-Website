@@ -192,12 +192,12 @@ navItems.forEach((navItems) => {
 
 //?Loading ?//
 
-// let loader = document.querySelector('.loadingio-eclipse');
+let loader = document.querySelector('.loadingio-eclipse');
 
-// window.addEventListener('load', () => {
+window.addEventListener('load', () => {
 
-//     loader.classList.add('loafer-hidden')
-// })
+    loader.classList.add('loafer-hidden')
+})
 
 
 
