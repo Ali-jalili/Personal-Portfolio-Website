@@ -190,6 +190,15 @@ navItems.forEach((navItems) => {
 })
 
 
+//?Loading ?//
+
+let loader = document.querySelector('.loadingio-eclipse');
+
+window.addEventListener('load', () => {
+
+    loader.classList.add('loafer-hidden')
+})
+
 
 
 ScrollReveal({
@@ -215,9 +224,3 @@ ScrollReveal().reveal('.footer .group', { dalay: 500, origin: 'top', interval: 2
 
 
 
-let loader = document.querySelector('.loadingio-eclipse');
-
-window.addEventListener('load', () => {
-    // loader.style.display = 'nane';
-    loader.classList.add('loafer-hidden')
-})
