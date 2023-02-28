@@ -160,9 +160,9 @@ body{
   height: 200px;
   display: inline-block;
   overflow: hidden;
-      position: fixed;
+position: fixed;
     width: 100%;
-    bottom: 0rem;
+   top: -2rem;
    background-color: rgb(23 25 28);
     height: 100vh;
     z-index: 99999;
@@ -1488,7 +1488,7 @@ margin-bottom: 40px;
      .ldio-rpinwye8j0b div{
             position: absolute;
         top: 14rem;
-    left: 37%;
+    left: 32%;
      }
 }
 
