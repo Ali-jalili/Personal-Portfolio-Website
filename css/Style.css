@@ -11,6 +11,7 @@
     --first-color :#0e2431;
     --second-color :#6a59d1;
     --third-color :#777;
+    --mb-1-5: 1.5rem;
     
     /*? Hover Color ?*/
     --hover-color :#4735bd;
@@ -179,6 +180,12 @@ position: fixed;
 
 .loafer-hidden{
     display: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
 }
 
 /*?Header ?*/
@@ -448,6 +455,7 @@ opacity: .2;
     max-width: 100%;
     min-width: 500px;
     border-radius: 10px;
+    margin-left: 5px;
 }
 
 .about-info .description h3{
@@ -1454,6 +1462,8 @@ margin-bottom: 40px;
 
     .home .home-container{
         display: grid;
+        margin-top: 2rem;
+    align-items: center;
     }
 
     .home-container .home-img{
@@ -1462,7 +1472,7 @@ margin-bottom: 40px;
 
     .home-container .home-img img{
         width: 80%;
-        transform: translate(80px, -188px);
+        transform: translate(68px, -188px);
     }
 
      .home .home-container .info{
@@ -1506,3 +1516,5 @@ margin-bottom: 40px;
         font-size: 0.9rem;
     }
 }
+
+
