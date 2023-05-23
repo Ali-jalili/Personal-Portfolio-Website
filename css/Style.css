@@ -182,11 +182,7 @@ position: fixed;
     display: none;
 }
 
-.container {
-  max-width: 1024px;
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
+
 
 /*?Header ?*/
 
@@ -1251,6 +1247,7 @@ margin-bottom: 40px;
 @media screen and (max-width:1123px){
     .portfolio-list .img-card{
         max-width: 78%;
+        margin-left: 14%;
     }
 }
 
@@ -1506,7 +1503,8 @@ margin-bottom: 40px;
 
 @media screen and (max-width:758px){
     .portfolio-list .img-card{
-        max-width: 57%;
+        max-width: 100%;
+        margin-right: 12%;
     }
 
 }
